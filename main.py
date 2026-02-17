@@ -25,7 +25,7 @@ async def countdown():
 
         for guild in client.guilds:
             for channel in guild.text_channels:
-                if channel.name == "general":
+                if channel.name == "general-chat":
                     await channel.send(message)
                     break
 
@@ -33,5 +33,6 @@ async def countdown():
 async def on_ready():
     print("Bot Ready!")
     countdown.start()
+
 
 client.run(TOKEN)
