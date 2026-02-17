@@ -2,7 +2,7 @@ import discord
 from discord.ext import tasks
 from datetime import datetime
 
-TOKEN = "938c7874b079bee66b5b2356725120eaaa2172d270b391b3cc244a1c153752e7"
+TOKEN = "MTQ3MzM5OTE3Mjc2ODk5MzQyMw.GHEqTW.-StmjqScJ12E1f-HPKEcZ-h95zDUdvXppa8DCU"
 
 intents = discord.Intents.default()
 intents.guilds = True
@@ -36,3 +36,4 @@ async def on_ready():
 
 
 client.run(TOKEN)
+
