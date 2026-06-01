@@ -2,7 +2,7 @@ import discord
 from discord.ext import tasks
 from datetime import datetime
 
-TOKEN = "MTQ3MzM5OTE3Mjc2ODk5MzQyMw.GHEqTW.-StmjqScJ12E1f-HPKEcZ-h95zDUdvXppa8DCU"
+TOKEN =""
 
 intents = discord.Intents.default()
 intents.guilds = True
